@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+div,
+button {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.headshot {
+  object-fit: contain;
+}
+
+.headshot img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.parallax-effect {
+  transform-style: preserve-3d;
+}
+
+.parallax-effect .inner-element {
+  transform-style: preserve-3d;
+  transform: translateZ(20px);
+}
+
+.contactFormErrorMessage {
+  font-size: small;
+  color: #ff4b4b;
+}
+
+.contactFormErrorMessage::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.Footer a {
+  text-decoration: underline;
+  color: rgb(161, 161, 161);
+}
+/* colors: {
+ 'text': 'rgb(229, 255, 245)',
+ 'background': 'rgb(0, 0, 0)',
+ 'primary': 'rgb(161, 252, 126)',
+ 'secondary': 'rgb(64, 201, 142)',
+ 'accent': 'rgb(36, 249, 210)',
+}, */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff05;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff0e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff18;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff04;
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* a a {
+  height: 100vh;
+} */
