@@ -1,5 +1,3 @@
-// import React from "react";
-import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 function About() {
   return (

@@ -1,5 +1,5 @@
 import "./App.css";
-import { About, Contact, Hero, Layout, Projects } from "./components/index";
+import { Hero, Layout } from "./components/index";
 import {
   Route,
   createBrowserRouter,
@@ -12,9 +12,6 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
         <Route path="" element={<Hero />} />
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="contact" element={<Contact />} />
       </Route>
     )
   );

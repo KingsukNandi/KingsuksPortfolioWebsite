@@ -1,6 +1,4 @@
 import Typewriter from "typewriter-effect";
-import { motion } from "framer-motion";
-import ProjectCard from "./ProjectCard";
 import SideScroll from "./SideScroll";
 import About from "./About";
 import Tilt from "react-parallax-tilt";
@@ -21,7 +19,6 @@ import EmailJSForm from "./EmailJSForm";
 import { Link } from "react-router-dom";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { useEffect, useState } from "react";
 function Hero() {
   const logos = [reactLogo(), viteLogo(), tailwindLogo(), reduxLogo()];
   const contactLogos = [

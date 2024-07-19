@@ -1,11 +1,9 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { useScroll, useTransform } from "framer-motion";
 import { motion } from "framer-motion";
 
 const SideScroll = ({ backText = "Back Text" }) => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
   // useEffect(() => {
   //   setWindowWidth(window.innerWidth);
   //   console.log(windowWidth);

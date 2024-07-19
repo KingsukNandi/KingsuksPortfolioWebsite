@@ -1,4 +1,3 @@
-import { Anchor } from "@mui/icons-material";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import {
   HiOutlineCode,
@@ -6,7 +5,6 @@ import {
   HiOutlinePaperAirplane,
   HiOutlineUser,
 } from "react-icons/hi";
-import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const iconStyle = {

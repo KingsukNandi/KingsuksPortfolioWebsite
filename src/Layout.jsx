@@ -1,4 +1,3 @@
-// import React from "react";
 import { ParticleBackground, Navbar } from "./components/index";
 import { Outlet } from "react-router-dom";
 

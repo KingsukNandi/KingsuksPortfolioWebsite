@@ -63,9 +63,7 @@ function EducationTimeline() {
         <h3 className="text-xl sm:text-lg font-semibold">
           Secondary (10) - WBBSE
         </h3>
-        <h4 className="text-base sm:text-sm">
-          Kalinga Institute of Industrial Technology
-        </h4>
+        <h4 className="text-base sm:text-sm">Springdale High School (H.S.)</h4>
         <p>Percentage : 91%</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
