@@ -48,7 +48,7 @@ function EducationTimeline() {
           Higher Secondary (10 + 2) - WBCHSE
         </h3>
         <h4 className="text-base sm:text-sm">Springdale High School (H.S.)</h4>
-        <p>Percentage : 85%</p>
+        <p>Percentage : 85.2%</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className=""
@@ -56,7 +56,7 @@ function EducationTimeline() {
           background: "#0d281c",
         }}
         contentArrowStyle={{ borderRight: "7px solid #0d281c" }}
-        date="2023 - present"
+        date="2020 - 2021"
         iconStyle={{ background: "#0d281c" }}
         icon={<FaGraduationCap />}
       >
@@ -64,7 +64,7 @@ function EducationTimeline() {
           Secondary (10) - WBBSE
         </h3>
         <h4 className="text-base sm:text-sm">Springdale High School (H.S.)</h4>
-        <p>Percentage : 91%</p>
+        <p>Percentage : 91.57%</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         iconStyle={{ background: "#0d281c" }}

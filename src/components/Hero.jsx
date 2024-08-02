@@ -19,6 +19,8 @@ import EmailJSForm from "./EmailJSForm";
 import { Link } from "react-router-dom";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useEffect } from "react";
+
 function Hero() {
   const logos = [reactLogo(), viteLogo(), tailwindLogo(), reduxLogo()];
   const contactLogos = [
@@ -31,6 +33,13 @@ function Hero() {
     ],
     ["_blank", "_blank", "", "_blank"],
   ];
+  const resume =
+    "https://drive.google.com/file/d/1348JGAj11yDOECbyfZl1FaEfbT2OY3WW/view?usp=sharing";
+  useEffect(() => {
+    alert(
+      `This website is currently under veleopment\nSome elements might not get displayed properly`
+    );
+  }, []);
 
   return (
     <div>
@@ -76,9 +85,11 @@ function Hero() {
             <button className="text-base w-32 sm:w-fit bg-primary text-black rounded-xl font-semibold p-3 hover:bg-secondary hover:scale-110 active:scale-95">
               <AnchorLink href="#contact">Contact</AnchorLink>
             </button>
-            <button className="text-base w-32 sm:w-fit rounded-xl bg-background font-semibold border border-primary text-primary p-3 hover:border-secondary hover:text-secondary hover:scale-110 active:scale-95">
-              Resume
-            </button>
+            <a target="_blank" href={resume}>
+              <button className="text-base w-32 sm:w-fit rounded-xl bg-background font-semibold border border-primary text-primary p-3 hover:border-secondary hover:text-secondary hover:scale-110 active:scale-95">
+                Resume
+              </button>
+            </a>
           </div>
         </div>
         {/* <div className="w-1/2"></div> */}

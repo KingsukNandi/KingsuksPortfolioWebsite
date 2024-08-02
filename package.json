@@ -13,7 +13,6 @@
     "@emailjs/browser": "^4.4.1",
     "@hookform/error-message": "^2.0.1",
     "@mui/icons-material": "^5.16.0",
-    "@mui/material": "^5.16.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
     "framer-motion": "^11.3.0",

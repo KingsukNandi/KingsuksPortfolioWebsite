@@ -88,7 +88,7 @@ function EmailJSForm() {
             console.log("messages", messages);
             return messages
               ? Object.entries(messages).map(([type, message]) => (
-                  <p key={type} className="contactFormErrorMessage">
+                  <p key={type}>
                     {message}
                   </p>
                 ))
