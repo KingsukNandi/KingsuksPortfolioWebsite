@@ -10,7 +10,7 @@ function About() {
           <div>
             Hi, I&apos;m{" "}
             <span className="text-primary font-semibold">Kingsuk Nandi</span>, a
-            first-year B.Tech student majoring in Computer Science and
+            second-year B.Tech student majoring in Computer Science and
             Engineering. I&apos;m a{" "}
             <span className="text-primary font-semibold">
               passionate web developer
