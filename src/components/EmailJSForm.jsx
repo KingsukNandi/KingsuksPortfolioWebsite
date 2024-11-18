@@ -88,9 +88,7 @@ function EmailJSForm() {
             console.log("messages", messages);
             return messages
               ? Object.entries(messages).map(([type, message]) => (
-                  <p key={type}>
-                    {message}
-                  </p>
+                  <p key={type}>{message}</p>
                 ))
               : null;
           }}
@@ -133,6 +131,7 @@ function EmailJSForm() {
       >
         Send Message
       </button>
+      {/* TODO: make floating alert on send and empty out form fields */}
     </form>
   );
 }

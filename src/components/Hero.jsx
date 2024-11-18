@@ -34,7 +34,7 @@ function Hero() {
     ["_blank", "_blank", "", "_blank"],
   ];
   const resume =
-    "https://drive.google.com/file/d/1348JGAj11yDOECbyfZl1FaEfbT2OY3WW/view?usp=sharing";
+    "https://drive.google.com/file/d/1cRyl0WgVjnny3bthfIDy1ekKboZUYRKN57r8NphItWo/view?usp=sharing";
   useEffect(() => {
     alert(
       `This website is currently under veleopment\nSome elements might not get displayed properly`
