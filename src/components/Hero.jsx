@@ -1,4 +1,4 @@
-nimport Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 import SideScroll from "./SideScroll";
 import About from "./About";
 import Tilt from "react-parallax-tilt";
