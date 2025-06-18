@@ -1,4 +1,4 @@
-import Typewriter from "typewriter-effect";
+nimport Typewriter from "typewriter-effect";
 import SideScroll from "./SideScroll";
 import About from "./About";
 import Tilt from "react-parallax-tilt";
@@ -37,7 +37,7 @@ function Hero() {
     "https://drive.google.com/file/d/1cRyl0WgVjnny3bthfIDy1ekKboZUYRKN57r8NphItWo/view?usp=sharing";
   useEffect(() => {
     alert(
-      `This website is currently under veleopment\nSome elements might not get displayed properly`
+      `This website is currently under development\nSome elements might not get displayed properly`
     );
   }, []);
 
