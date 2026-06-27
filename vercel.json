@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://kingsuk-nandi.vercel.app/",
+      "permanent": true
+    }
+  ]
+}
